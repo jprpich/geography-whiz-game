@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>January 2nd 2018</title>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="normalize.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to the Country Knowledge Game!</h1>
+    <p>Instructions</p>
+    <ul>
+      <li>Please press enter with the information. Go from left to right. You cannot skip ahead or the game will not asign the points.</li>
+      <li>Look at the Chrome developer tools console only if you get stuck!</li>
+      <li>If the country is so remote it doesn't have a capital or region you must leave it blank and press enter.</li>
+    </ul>
+    <h1>Fill out the information for <span id="game"></span></h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Capital</th>
+          <th>Region</th>
+          <th>Subregion</th>
+          <th>Spanish</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><input id="name" type="text"></td>
+          <td><input id="capital" type="text"></td>
+          <td><input id="region" type="text"></td>
+          <td><input id="subregion" type="text"></td>
+          <td><input id="spanish" type="text"></td>
+        </tr>        
+      </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
